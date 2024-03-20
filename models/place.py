@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """ Place Module for HBNB project """
 from models.base_model import BaseModel, Base
-from models.amenity import Amenity
+
+from sqlalchemy import Integer,Column , Float, ForeignKey,String, Table
 import models
-from models.review import Review
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, Float, String, ForeignKey, Table
+from models.amenity import Amenity
+from models.review import Review
 
 
 if models.is_type == "db":

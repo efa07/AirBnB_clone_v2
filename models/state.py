@@ -3,8 +3,8 @@
 from models.base_model import BaseModel, Base
 import models
 from models.city import City
+from sqlalchemy import  String,Column
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, String
 from os import getenv
 
 

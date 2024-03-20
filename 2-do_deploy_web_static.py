@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""  compress a folder """
+"""  compress the folder """
 from datetime import datetime
 from fabric.api import *
 import os

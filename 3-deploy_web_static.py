@@ -8,7 +8,7 @@ env.hosts = ['35.237.96.82', '54.164.136.88']
 
 
 def do_pack():
-    """Creates a tgz archive using fabric"""
+    """Creates a tgz archive """
     try:
         date = datetime.now().strftime("%Y%m%d%H%M%S")
         if isdir("versions") is False:

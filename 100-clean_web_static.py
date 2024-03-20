@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Function that deploys """
+""" Function used to  deploys """
 from fabric.api import *
 
 
@@ -8,7 +8,7 @@ env.user = "ubuntu"
 
 
 def do_clean(number=0):
-    """ CLEANS """
+    """ clean """
 
     number = int(number)
 

@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
-""" compress a folder """
+""" compress the folder """
 from datetime import datetime
 from fabric.api import local
 
 
 def do_pack():
     """
-    return the archive path if the archive has been correctly
-    generated. Otherwise return None
+    return  archive path if the archive has been correctly
+    generated. else return None
     """
     try:
         local("mkdir -p versions")
